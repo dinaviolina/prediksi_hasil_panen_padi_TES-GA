@@ -29,10 +29,10 @@ def load_scalers():
 
 st.markdown("<h1 style='text-align: center;'>Sistem Prediksi Hasil Panen Padi di Madura</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Menggunakan Metode TES-GA</h3>", unsafe_allow_html=True)
-st.image("padi.png", use_column_width=True, caption="Oleh: Dina Violina")
+st.image("padi.png", use_container_width=True, caption="Oleh: Dina Violina")
 
 # sidebar
-st.sidebar.image("padi.png", use_column_width=True)
+st.sidebar.image("padi.png", use_container_width=True)
 st.sidebar.header("Menu")
 menu_selection = st.sidebar.selectbox("Pilih menu:", ["Upload Data", "Preprocessing", "Modelling", "Pilih Model", "Prediksi"])
 
