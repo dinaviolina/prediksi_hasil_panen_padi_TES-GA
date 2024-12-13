@@ -272,8 +272,11 @@ elif menu_selection == "Pilih Model":
                 # Input parameter TES (Exponential Smoothing)
                 seasonal_periods = st.number_input("Masukkan periode musiman TES:", min_value=1, value=12, step=1)
                 alpha = st.number_input("Masukkan alpha TES:", min_value=0.0, max_value=1.0, value=0.8, step=0.01)
+                st.write("Masukkan nilai alpha terbaik: 0.1")
                 beta = st.number_input("Masukkan beta TES:", min_value=0.0, max_value=1.0, value=0.2, step=0.01)
+                st.write("Masukkan nilai beta terbaik: 0.3")
                 gamma = st.number_input("Masukkan gamma TES:", min_value=0.0, max_value=1.0, value=0.2, step=0.01)
+                st.write("Masukkan nilai gamma terbaik: 0.5")
                 
                 # Simpan parameter TES di session state
                 st.session_state.seasonal_periods = seasonal_periods
