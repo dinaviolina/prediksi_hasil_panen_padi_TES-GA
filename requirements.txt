@@ -7,3 +7,4 @@ statsmodels==0.14.0
 matplotlib==3.7.1
 scipy==1.11.2
 openpyxl==3.1.2
+altair==5.5.0
